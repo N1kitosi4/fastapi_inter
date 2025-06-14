@@ -9,9 +9,15 @@ __pycache__/
 *$py.class
 
 
+.venv/
+.venv/*
+*/.venv
+
 # IDE
 .vscode/
 .idea/
+*.idea/
+.idea/*
 .idea
 *.swp
 *.swo
