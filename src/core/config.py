@@ -8,9 +8,9 @@ class Settings(BaseSettings):
     DB_PORT: str
     DB_NAME: str
 
-    JWT_SECRET_KEY: str = "your_super_secret_key"
-    JWT_ALGORITHM: str = "HS256"
-    JWT_ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24  # 1 day
+    JWT_SECRET_KEY: str
+    JWT_ALGORITHM: str
+    JWT_ACCESS_TOKEN_EXPIRE_MINUTES: int
 
     @property
     def get_database_url(self):
